@@ -32,3 +32,24 @@ header .head-right a{
     color: #000;
     cursor: pointer;
 }
+
+/* 中间内容部分 */
+section{
+    position: relative;
+    top:100px;
+    left: 50px;
+}
+section .file{
+    width: 100px;
+    height: 130px;
+}
+section .file img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+section .file p{
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+}

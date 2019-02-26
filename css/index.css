@@ -36,10 +36,10 @@ header .head-right a{
 /* 中间内容部分 */
 section{
     position: relative;
-    top:100px;
-    left: 50px;
+    top: 100px;
 }
 section .file{
+    margin-left: 20px;
     width: 100px;
     height: 130px;
 }
@@ -52,4 +52,43 @@ section .file p{
     text-align: center;
     font-size: 14px;
     color:#fff;
+}
+/* 尾部样式 */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    text-align: center;
+}
+footer .dock{
+    width: 60%;
+    height: 60px;
+    /* background-color: red; */
+    background: url("../img/dock_bg.png") repeat center;
+    margin: 0 auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+footer .dock ul{
+    list-style: none;
+    display: inline-block;
+    line-height: 60px;
+    /* background-color:red; */
+    padding: 0;
+}
+footer .dock ul li {
+    float: left;
+    margin: 0 13px;
+    transition: all 0.2s linear;
+}
+footer .dock ul li:hover{
+    transform: scale(1.5);
+    transform-origin: bottom center;
+}
+footer .dock img{
+    width:50px;
+    height: 50px;
 }
